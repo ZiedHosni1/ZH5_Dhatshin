@@ -1,0 +1,16 @@
+name: wgan_env
+channels:
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - tqdm
+  - selfies
+  - rdkit
+  - pytorch
+  - pytorch-cuda=11.8
+  - torchvision
