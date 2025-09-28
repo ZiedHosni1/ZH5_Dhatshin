@@ -1,0 +1,25 @@
+name: wgan_env
+channels:
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  # Core
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - tqdm
+  - jupyter
+
+  # Chemistry
+  - rdkit
+  - selfies
+
+  # PyTorch (choose GPU)
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+
+  # Extra utils
+  - ipykernel
